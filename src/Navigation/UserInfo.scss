@@ -1,0 +1,10 @@
+.user-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  .user-container {
+    padding: 20px;
+    border: 1px solid red;
+    text-align: center;
+  }
+}
